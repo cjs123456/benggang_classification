@@ -15,7 +15,7 @@ In this paper, we propose an integrated deep learning-driven detection approach 
 - numpy==1.18.5
 - scikit-learn==0.23.1
 
-## Folder structure
+## Folder Structure
 
 ```
   ├── train.py                # train and test the proposed model
@@ -34,7 +34,7 @@ label
 
 The DOM and DSM data used in the experimetns cannot be shared at this time due to our agreement with the data provider.
 
-## Train and test 
+## Train and Test 
 Change the train and test data directories. Train the model and then report performance:
 
 ```
@@ -43,10 +43,10 @@ python train.py
 
 ## References
 [1] Atwood, J.; Towsley, D. Diffusion-convolutional neural networks. In 30th Conference on Neural Information Processing Sys-tems (NIPS 2016), Barcelona, Spain, December 5-10, 2016.
-[[Source Code]](https://github.com/jcatw/dcnn)
+[[Code]](https://github.com/jcatw/dcnn)
 
 [2] Simonyan, K.; Zisserman, A. 2015. Very deep convolutional networks for large-scale image recognition. In 3rd International Conference on Learning Representations (ICLR), San Diego, CA, USA, May 7-9, 2015.
-[[Source Code]](https://github.com/msyim/VGG16)
+[[Code]](https://github.com/msyim/VGG16)
 
 [3] Arevalo, J.; Solorio, T.; Montes-y-Gomez, M.; Gonzalez, F. Gated multimodal unit for information fusion. ICLR 2017, Toulon, France, April 24-26, 2017.
-[[Source Code]](https://github.com/johnarevalo/gmu-mmimdb)
+[[Code]](https://github.com/johnarevalo/gmu-mmimdb)
