@@ -27,7 +27,7 @@ In this paper, we propose an integrated deep learning-driven detection approach 
   └── Readme                # This document
 label
   ├── label1                # label of Dataset1
-  └──  label1_2            # label of Dataset1 and Dataset2
+  └── label1_2            # label of Dataset1 and Dataset2
 ```
 
 ## Data
