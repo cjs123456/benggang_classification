@@ -17,6 +17,7 @@ In this paper, we propose an integrated deep learning-driven detection approach 
 
 ## Folder structure
 
+```
   ├── train.py                # train and test the proposed model
   ├── dcnn.py               # Code for diffusion convolution
   ├── FusionNet.py       # Network structure of proposed fusion model
@@ -27,6 +28,7 @@ In this paper, we propose an integrated deep learning-driven detection approach 
   label
   ├── label1                  # label of Dataset1
   ├── label1_2              # label of Dataset1 and Dataset2
+```
 
 ## Data
 
