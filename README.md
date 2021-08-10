@@ -5,7 +5,7 @@ This repository contains the code to our paper "Deep fusion of DOM and DSM featu
 Benggang is a Chinese word for a typical gully erosional landform. 
 In this paper, we propose an integrated deep learning-driven detection approach based on DOM and DSM data to better monitor and manage Benggang and other similar erosional landscapes.
 
-<p align="center"><img src="intro.png" width="820" /></p>
+<p align="center"><img src="intro.png" width="700" /></p>
 
 ## Dependencies
 
