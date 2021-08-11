@@ -1,12 +1,12 @@
 # Deep fusion of DOM and DSM features for Benggang Discovery
 ## Introduction
 
-This repository contains the code to our paper "Deep fusion of DOM and DSM 
-features for Benggang Discovery". 
-Benggang is a Chinese word for a typical gully erosional landform. 
-In this paper, we propose to integrate high resolution Digital Orthophoto Map (DOM) and DSM 
-data for efficient and automatic Benggang detection with an integrated 
-end-to-end learning model.
+This repository contains the code of the paper 
+"Deep fusion of DOM and DSM features for Benggang Discovery". 
+Benggang is a typical gully erosional landform in China. In this paper, 
+we propose to integrate high resolution Digital Orthophoto Map (DOM) 
+and DSM data for efficient and automatic Benggang detection with 
+an integrated end-to-end learning model.
 
 <p align="center"><img src="intro.png" width="700" /></p>
 
@@ -22,15 +22,12 @@ end-to-end learning model.
 
 ```
   ├── train.py                # train and test the proposed model
-  ├── dcnn.py                # Code for diffusion convolution
-  ├── FusionNet.py          # Network structure of proposed fusion model
+  ├── dcnn.py                # Code for diffusion convolution, based on Atwood and Towsley 2016
+  ├── FusionNet.py          # Network structure of proposed fusion model，based on Arevalo and Solorio 2017
   ├── MyDataset.py         # Customized dataloader
   ├── DSM_Extract.py        # Code for feature extraction of DSM
   ├── scatterplot.py          # Code for scatter chart analysis
   └── Readme                # This document
-label
-  ├── label1                # label of Dataset1
-  └── label1_2            # label of Dataset1 and Dataset2
 ```
 
 ## Data
@@ -45,7 +42,7 @@ python train.py
 ```
 
 ## References
-[1] Atwood, J.; Towsley, D. Diffusion-convolutional neural networks. In 30th Conference on Neural Information Processing Sys-tems (NIPS 2016), Barcelona, Spain, December 5-10, 2016.
+[1] Atwood, J.; Towsley, D. Diffusion-convolutional neural networks. In 30th Conference on Neural Information Processing Systems (NIPS 2016), Barcelona, Spain, December 5-10, 2016.
 [[Code]](https://github.com/jcatw/dcnn)
 
 [2] Simonyan, K.; Zisserman, A. 2015. Very deep convolutional networks for large-scale image recognition. In 3rd International Conference on Learning Representations (ICLR), San Diego, CA, USA, May 7-9, 2015.
