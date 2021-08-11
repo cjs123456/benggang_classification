@@ -1,9 +1,12 @@
 # Deep fusion of DOM and DSM features for Benggang Discovery
 ## Introduction
 
-This repository contains the code to our paper "Deep fusion of DOM and DSM features for Benggang Discovery". 
+This repository contains the code to our paper "Deep fusion of DOM and DSM 
+features for Benggang Discovery". 
 Benggang is a Chinese word for a typical gully erosional landform. 
-In this paper, we propose an integrated deep learning-driven detection approach based on DOM and DSM data to better monitor and manage Benggang and other similar erosional landscapes.
+In this paper, we propose to integrate high resolution Digital Orthophoto Map (DOM) and DSM 
+data for efficient and automatic Benggang detection with an integrated 
+end-to-end learning model.
 
 <p align="center"><img src="intro.png" width="700" /></p>
 
