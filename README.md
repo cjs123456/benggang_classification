@@ -23,7 +23,7 @@ an integrated end-to-end learning model.
 ```
   ├── train.py                # train and test the proposed model
   ├── dcnn.py                # Code for diffusion convolution, based on Atwood and Towsley 2016
-  ├── FusionNet.py          # Network structure of proposed fusion model，based on Arevalo and Solorio 2017
+  ├── FusionNet.py          # Network structure of proposed fusion model, based on Arevalo and Solorio 2017
   ├── MyDataset.py         # Customized dataloader
   ├── DSM_Extract.py        # Code for feature extraction of DSM
   ├── scatterplot.py          # Code for scatter chart analysis
