@@ -32,7 +32,7 @@ an integrated end-to-end learning model.
 
 ## Data
 
-The DOM and DSM data used in the experimetns cannot be shared at this time due to our agreement with the data provider.
+The DOM and DSM data used in the experiments cannot be shared at this time due to our agreement with the data provider.
 
 ## Train and Test 
 Change the train and test data directories. Train the model and then report performance:
